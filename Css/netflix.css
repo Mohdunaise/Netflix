@@ -1,0 +1,286 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #212121;
+    color: #fff;
+}
+
+a,ul,li {
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.main-background {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient( rgba(0,0,0,0.8),rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url(../images/netflix.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 30px 4%;
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.netflix-logo{
+    width: 165px;
+
+}
+
+.input-btn button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: solid red 1px;
+}
+
+.input-btn select {
+    background-color: unset;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-right: 25px;
+    border: solid white 1px;
+    outline: none;
+}
+
+.main-contents {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+}
+
+.main-contents h1 {
+    max-width: 800px;
+    font-weight: 500;
+    line-height: 70px;
+    font-size: 65px;
+    margin: 20px 0px;
+}
+
+.main-content-p {
+    font-size: 26px !important;
+    margin: 15px 0px 30px 0px;
+}
+
+.main-contents p {
+    font-size: 19px;
+}
+
+.email-get-start {
+    width: 700px;
+    border-radius: 2px;
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.email-get-start input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    font-size: 17px;
+
+}
+
+.email-get-start button {
+    font-size: 25px !important;
+    font-weight: 400;
+    background-color: red;
+    border-radius: 2px;
+    border: none;
+    outline: 0;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 20px 40px;
+}
+
+.icon-size {
+    margin-left: 5px;
+}
+
+.section-1 {
+    background-color: black;
+    padding: 4% 15%;
+    margin-top: 8px;
+}
+
+.section-1-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-div {
+    width: 500px;
+    height: fit-content;
+}
+
+.content-div h1 {
+    font-size: 45px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.content-div p {
+    margin: 18px 0px 0px 0px;
+    font-size: 25px;
+    line-height: 35px;
+    justify-content: center;
+
+}
+
+.img-div {
+    width: 450px;
+    height: fit-content;
+    overflow: hidden;
+}
+
+.img-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.footer-above {
+    background-color: black;
+    margin-top: 8px;
+    padding: 4% 0 5% 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer-above h1 {
+    font-size: 50px;
+    font-weight: 500;
+    margin: 0px 0px 45px 0px;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 28px;
+    font-weight: 100;
+    background-color: #303030;
+    color: white;
+    border: none;
+    padding: 25px 30px;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.width {
+    width: 55%;
+}
+
+
+.signup input {
+    padding: 15px 25px;
+    border: none;
+    outline: none;
+    min-width: 600px;
+    height: 70px;
+    font-size: 17px;
+}
+
+.signup button {
+    padding: 15px 25px;
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    font-size: 20px;
+    height: 70px;
+    margin-left: -4px;
+
+}
+
+
+.signup button,input {
+    vertical-align: middle;
+}
+
+footer {
+    margin-top: 8px;
+    background-color: black;
+    padding: 5% 20% 2% 20%;
+}
+
+footer h4 {
+    color: #737373;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.footer-ul {
+    display: flex;
+}
+
+.footer-ul ul{
+    margin-right: 5rem;
+}
+
+.footer-ul ul li{
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+.footer-ul ul li a {
+    color: #737373;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.footer-ul ul li a:hover {
+    text-decoration: underline;
+}
+
+.ftr-lang-btn select {
+    margin-top: 20px;
+    background-color: unset;
+    color: #737373;
+    padding: 15px 20px;
+    font-size: 15px;
+    border-radius: 2px;
+    border: solid #737373 0.02px;
+    outline: none;
+}
+
+.netflix-india {
+    color: #737373;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.ready-p2 {
+    font-size: 19px;
+    font-weight: 400;
+    margin: 4.5rem 0px 20px 0px;
+}
